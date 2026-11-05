@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+odoo-venv/
+
+# Secrets & local environment configs
+.env
+*.conf
+!*.conf.example
+
+# Logs and databases
+*.log
+*.sql
+*.dump
+filestore/
+sessions/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
