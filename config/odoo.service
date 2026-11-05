@@ -1,5 +1,5 @@
 [Unit]
-Description=Odoo 18.0 Community Edition
+Description=Odoo 20.0 Community Edition
 Requires=postgresql.service
 After=network.target postgresql.service
 

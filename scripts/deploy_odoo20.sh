@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Automated Odoo 18.0 Community Edition Deployment Script for Ubuntu
+# Automated Odoo 20.0 Community Edition Deployment Script for Ubuntu
 export DEBIAN_FRONTEND=noninteractive
 
 apt-get update -qq
@@ -22,7 +22,7 @@ su - postgres -c "createuser -s odoo 2>/dev/null || true"
 
 mkdir -p /opt/odoo/custom-addons
 if [ ! -d /opt/odoo/odoo-server/.git ]; then
-    git clone https://www.github.com/odoo/odoo --depth 1 --branch 18.0 --single-branch /opt/odoo/odoo-server
+    git clone https://www.github.com/odoo/odoo --depth 1 --branch 20.0 --single-branch /opt/odoo/odoo-server
 fi
 chown -R odoo:odoo /opt/odoo
 

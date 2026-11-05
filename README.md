@@ -1,10 +1,10 @@
-# Odoo 18.0 Community Edition — Production Deployment & Custom Addons
+# Odoo 20.0 Community Edition — Production Deployment & Custom Addons
 
-This repository contains the deployment configuration, infrastructure automation scripts, and custom modules (`custom-addons`) for our **Odoo 18.0 Community Edition** server.
+This repository contains the deployment configuration, infrastructure automation scripts, and custom modules (`custom-addons`) for our **Odoo 20.0 Community Edition** server.
 
 ## Architecture Overview
 
-- **Odoo Version:** 18.0 Community Edition (`18.0` branch from official `odoo/odoo`)
+- **Odoo Version:** 20.0 Community Edition (`20.0` branch from official `odoo/odoo`)
 - **Application Directory:** `/opt/odoo/odoo-server`
 - **Custom Addons Directory:** `/opt/odoo/custom-addons`
 - **Python Virtual Environment:** `/opt/odoo/odoo-venv`
@@ -18,12 +18,12 @@ This repository contains the deployment configuration, infrastructure automation
 
 ```text
 ├── config/
-│   ├── odoo.conf.example      # Sanitized Odoo 18 configuration template
-│   └── odoo.service           # Systemd unit file for Odoo 18
-├── custom-addons/             # Place custom Odoo 18 modules here
-│   └── .gitkeep
+│   ├── odoo.conf.example      # Sanitized Odoo 20 configuration template
+│   └── odoo.service           # Systemd unit file for Odoo 20
+├── custom-addons/             # Place custom Odoo 20 modules here
+│   └── custom_placeholder/
 ├── scripts/
-│   └── deploy_odoo18.sh       # Automated Ubuntu deployment script for Odoo 18
+│   └── deploy_odoo20.sh       # Automated Ubuntu deployment script for Odoo 20
 ├── .gitignore
 └── README.md
 ```
