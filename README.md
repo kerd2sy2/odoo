@@ -7,6 +7,7 @@ This repository contains the deployment configuration, infrastructure automation
 - **Odoo Version:** 20.0 Community Edition (`20.0` branch from official `odoo/odoo`)
 - **Application Directory:** `/opt/odoo/odoo-server`
 - **Custom Addons Directory:** `/opt/odoo/custom-addons`
+- **Third-party Addons (MuK, LGPL-3):** `/opt/odoo/muk-addons` — cloned from `https://github.com/muk-it/odoo-modules` (branch `20.0`). Installed: `muk_web_theme` and its dependencies. Update with `sudo -u odoo git -C /opt/odoo/muk-addons pull`, then `-u muk_web_theme`.
 - **Python Virtual Environment:** `/opt/odoo/odoo-venv`
 - **Configuration File:** `/etc/odoo.conf` (permissions `640`, owned by `odoo:odoo`)
 - **Systemd Service:** `/etc/systemd/system/odoo.service`
