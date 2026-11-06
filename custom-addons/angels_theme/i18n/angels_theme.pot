@@ -1,0 +1,286 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* angels_theme
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20261015\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 22:39+0000\n"
+"PO-Revision-Date: 2026-10-18 22:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Activity"
+msgstr ""
+
+#. module: angels_theme
+#: model_terms:ir.ui.view,arch_db:angels_theme.view_company_form_angels_theme
+#: model_terms:ir.ui.view,arch_db:angels_theme.view_users_form_angels_theme
+#: model_terms:ir.ui.view,arch_db:angels_theme.view_users_form_simple_modif_angels_theme
+msgid "Appearance"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,help:angels_theme.field_res_company__angels_home_background
+msgid "Background of the home screen that lists the apps."
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_company__angels_home_background__gradient
+msgid "Brand Gradient"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Call"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Chat"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/dialog/dialog.xml:0
+msgid "Close"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/app_sections.js:0
+msgid "Close menu"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_users__angels_theme_density__comfortable
+msgid "Comfortable"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_users__angels_theme_density__compact
+msgid "Compact"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model,name:angels_theme.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_res_users__angels_theme_density
+msgid "Density"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_ir_http__display_name
+#: model:ir.model.fields,field_description:angels_theme.field_res_company__display_name
+#: model:ir.model.fields,field_description:angels_theme.field_res_users__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_company__angels_home_background__dots
+msgid "Dotted"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model,name:angels_theme.model_ir_http
+msgid "HTTP Routing"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+#: model:ir.actions.client,name:angels_theme.action_home
+msgid "Home"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_res_company__angels_home_background
+msgid "Home Background"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_res_company__angels_home_image
+msgid "Home Image"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/navbar.xml:0
+msgid "Home Menu"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_res_users__angels_home_prefs
+msgid "Home Screen Layout"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_ir_http__id
+#: model:ir.model.fields,field_description:angels_theme.field_res_company__id
+#: model:ir.model.fields,field_description:angels_theme.field_res_users__id
+msgid "ID"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_company__angels_home_background__image
+msgid "Image"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-python
+#: code:addons/angels_theme/models/res_users_home.py:0
+msgid "Invalid home screen layout."
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Menu"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/home_menu.xml:0
+msgid "No results"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_users__angels_theme_density__normal
+msgid "Normal"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_users__angels_theme_tab_style__pill
+msgid "Pill"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/home_menu.js:0
+msgid "Pin to the top"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,help:angels_theme.field_res_users__angels_home_prefs
+msgid "Pinned apps and app order of the home screen, by menu XML id."
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_company__angels_home_background__plain
+msgid "Plain"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Profile"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/home_menu.xml:0
+msgid "Recent"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "New"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/home_menu.xml:0
+msgid "Reset layout"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Search"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/home_menu.js:0
+msgid "Search apps and menus..."
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_res_users__angels_home_show_recents
+msgid "Show Recent Apps"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,help:angels_theme.field_res_users__angels_home_show_recents
+msgid "Show the last apps you opened at the top of the home screen."
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,help:angels_theme.field_res_users__angels_theme_density
+msgid "Spacing of lists and forms in the backend."
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields,field_description:angels_theme.field_res_users__angels_theme_tab_style
+msgid "Tab Style"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model.fields.selection,name:angels_theme.selection__res_users__angels_theme_tab_style__underline
+msgid "Underline"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/home/home_menu.js:0
+msgid "Unpin"
+msgstr ""
+
+#. module: angels_theme
+#: model:ir.model,name:angels_theme.model_res_users
+msgid "User"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Actions"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "More"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Options"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "Pages"
+msgstr ""
+
+#. module: angels_theme
+#. odoo-javascript
+#: code:addons/angels_theme/static/src/mobile/mobile_tab_bar.js:0
+msgid "View type"
+msgstr ""

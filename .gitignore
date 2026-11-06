@@ -25,3 +25,7 @@ sessions/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local staging copies
+/angels_theme/
+

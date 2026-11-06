@@ -1,0 +1,107 @@
+// Notebook tabs, for every form of every app.
+.o_notebook.horizontal {
+    .nav-tabs {
+        gap: 4px;
+        border-bottom: 1px solid $border-color;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 14px;
+        border: 0;
+        border-radius: 0;
+        color: $text-muted;
+        background: transparent;
+        transition: color .15s, box-shadow .15s, background-color .15s;
+
+        // Underline of the active tab: grows from the center when it opens.
+        &::before {
+            content: "";
+            position: absolute;
+            inset: auto 8px 0;
+            height: 2px;
+            border-radius: 2px;
+            background: var(--at-brand);
+            transform: scaleX(0);
+            transition: transform .25s cubic-bezier(.2, .8, .2, 1);
+        }
+
+        &:hover {
+            color: $body-color;
+            border: 0;
+        }
+
+        &.active {
+            &, &:hover, &:focus, &:active {
+                border: 0;
+                color: var(--at-brand);
+                background: transparent;
+            }
+
+            &::before {
+                transform: none;
+            }
+        }
+
+        &.o_page_invalid {
+            background-color: transparent !important;
+
+            &::after {
+                content: "";
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: var(--at-danger);
+            }
+        }
+    }
+}
+
+.o_at_tab_count {
+    min-width: 18px;
+    padding: 0 6px;
+    border-radius: 999px;
+    background: $gray-200;
+    color: $body-color;
+    font-size: .75em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.o_at_tabs_pill .o_notebook.horizontal {
+    .nav-tabs {
+        padding-bottom: 6px;
+    }
+
+    .nav-link {
+        border-radius: 999px;
+        padding: 5px 14px;
+
+        &::before {
+            content: none;
+        }
+
+        &.active {
+            &, &:hover, &:focus, &:active {
+                box-shadow: none;
+                background: var(--at-brand-soft);
+                color: var(--at-brand-dark);
+            }
+        }
+    }
+}
+
+// Keep the tabs in sight while scrolling a long form.
+.o_form_view .o_form_sheet .o_notebook.horizontal > .o_notebook_headers {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: $o-view-background-color;
+}
